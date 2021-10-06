@@ -27,11 +27,11 @@ export const QuoteItem: React.FC<QuotationType> = React.memo(
     return (
       <Animated.View style={[styles.item, {opacity: controlsFadeValue}]}>
         <View style={styles.cell1}>
-          <Text>{name}</Text>
+          <Text style={styles.text}>{name}</Text>
         </View>
         <View style={styles.cell2}>
-          <Text>{last}</Text>
-          <Text>{highestBid}</Text>
+          <Text style={styles.text}>{last}</Text>
+          <Text style={styles.text}>{highestBid}</Text>
         </View>
         <View style={styles.cell3}>
           <Text style={{color: parseFloat(percentChange) > 0 ? green : red}}>{percentChange}</Text>

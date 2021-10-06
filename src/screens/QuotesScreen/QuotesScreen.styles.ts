@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {centerContent, greyLight, red, rowSpaceBetween, white} from '../../lib/styles';
+import { black, centerContent, greyLight, red, rowSpaceBetween, white } from '../../lib/styles';
 
 const styles = StyleSheet.create({
   container: {
@@ -9,6 +9,11 @@ const styles = StyleSheet.create({
   title: {
     paddingHorizontal: 20,
     fontSize: 20,
+    color: black,
+  },
+  text: {
+    color: black,
+    fontSize: 13,
   },
   item: {
     ...rowSpaceBetween,

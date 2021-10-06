@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {centerContent, white} from '../../lib/styles';
+import {black, centerContent, white} from '../../lib/styles';
 
 const styles = StyleSheet.create({
   container: {
@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 20,
+    color: black,
   },
 });
 
