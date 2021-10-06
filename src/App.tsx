@@ -14,7 +14,7 @@ const App: React.FC = () => {
   const getTabBarLabel = (route: string): string => {
     switch (route) {
       case MAIN_ROUTE:
-        return 'Главная';
+        return 'О приложении';
       case QUOTES_ROUTE:
         return 'Котировки';
       default:
